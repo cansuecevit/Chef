@@ -1,2 +1,2 @@
 # Chef
-Kotlin ve Firebase kullanılmıştır.
+Kotlin ve Firebase kullanıldı.
