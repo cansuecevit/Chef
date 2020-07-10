@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_items">
+
+        <item>Çorbalar</item>
+        <item>Makarnalar</item>
+        <item>Pilavlar</item>
+        <item>Et Yemekleri</item>
+        <item>Tavuk Yemekleri</item>
+        <item>Sebze Yemekleri</item>
+        <item>Tatlılar</item>
+
+    </string-array>
+</resources>

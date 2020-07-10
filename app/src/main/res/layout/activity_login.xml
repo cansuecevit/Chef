@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chef"
+    tools:context=".Activity.loginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/editTextUserNickName"
+            android:layout_width="205dp"
+            android:layout_height="45dp"
+            android:background="@drawable/shape_login_textview"
+            android:ems="10"
+            android:hint="  Kullanıcı Adı" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="205dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/shape_login_textview"
+            android:ems="10"
+            android:hint="  Şifre"
+            android:inputType="textPassword" />
+
+        <CheckBox
+            android:id="@+id/checkBoxRememberMe"
+            android:layout_width="137dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="34dp"
+            android:background="@drawable/shape_login_register"
+            android:text="Beni Hatırla"
+            android:textColor="#0C0101" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="124dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/shape_button"
+            android:onClick="login"
+            android:text="GİRİŞ" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="277dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/shape_login_register"
+            android:gravity="center"
+            android:onClick="registerActivity"
+            android:text=" Hesabınız yok mu? Kaydolun!"
+            android:textColor="#A470D6"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

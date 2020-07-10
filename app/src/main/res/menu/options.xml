@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_soups"
+        android:title="Çorbalar" />
+    <item
+        android:id="@+id/menu_pastas"
+        android:title="Makarnalar" />
+    <item
+        android:id="@+id/menu_rices"
+        android:title="Pilavlar" />
+    <item
+        android:id="@+id/menu_meats"
+        android:title="Et Yemekleri" />
+    <item
+        android:id="@+id/menu_chickens"
+        android:title="Tavuk Yemekleri" />
+    <item
+        android:id="@+id/menu_vegetables"
+        android:title="Sebze Yemekleri" />
+    <item
+        android:id="@+id/menu_desserts"
+        android:title="Tatlılar" />
+    <item
+        android:id="@+id/menu_add"
+        android:title="Yemek Ekle" />
+
+</menu>
